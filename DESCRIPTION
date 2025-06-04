@@ -1,0 +1,25 @@
+Package: yonsei
+Type: Package
+Title: What the Package Does 
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Park Joonghee",
+      email = "shoutjoy1@gmail.com",
+      role = c("aut", "cre")
+    )
+  )
+Description: More about what it does (maybe more than one line).
+    Continuation lines should be indented.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports:
+  dplyr,
+  magrittr,
+  purrr,
+  tibble
+Depends:
+    R (>= 2.10),
+    tidyverse
+RoxygenNote: 7.3.1
